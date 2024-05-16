@@ -1,0 +1,17 @@
+function love.load()
+	Root = require("tree")
+
+	Insert(Root, 40)
+	Insert(Root, 20)
+	Insert(Root, 60)
+	Insert(Root, 10)
+	Insert(Root, 30)
+	Insert(Root, 50)
+	Insert(Root, 70)
+	Insert(Root, 4)
+	Insert(Root, 15)
+	Insert(Root, 0)
+	love.graphics.clear()
+	PoTraversal(Root, 400, 50, 400)
+	love.graphics.present()
+end
