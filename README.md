@@ -1,2 +1,2 @@
 # Tree-Vis
-Tree data structure visualization
+Simple Binary Tree data structure visualization
